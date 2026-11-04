@@ -1,6 +1,6 @@
-namespace Advent.Day1;
+namespace Advent.Y2015.Day1;
 
-public static class Solve
+public static class Day1
 {
     private static IEnumerable<int> Steps(string input) => input.Select(c => c == '(' ? 1 : -1);
 
